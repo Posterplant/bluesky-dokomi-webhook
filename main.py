@@ -63,7 +63,7 @@ def search_and_post():
         results = bsky.app.bsky.feed.search_posts(
             {
                 "q": SEARCH_QUERY,
-                "limit": 10,
+                "limit": 30,
                 "sort": "latest",
             }
         )
